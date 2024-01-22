@@ -1,0 +1,31 @@
+#tell-me-more-btn{
+    background-color: #e27d5f;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 30px;
+    font-size: 16px;
+    position: relative;
+    transition: transform 0.3s;
+    cursor: url(./icons/Tabby-Cat-Paw.cur), auto;
+  }
+  
+  #tell-me-more-btn:hover{
+    animation: bubble 0.4s ease-out;
+  }
+  
+  @keyframes bubble {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .tell-me-more-text{
+    cursor: url(./icons/Tabby-Cat-Paw.cur), auto;
+  }

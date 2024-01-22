@@ -1,0 +1,82 @@
+.section_padding {
+  padding: 2rem 2rem;
+}
+
+.useful-info-text{
+  cursor:default;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 100%;
+}
+
+.sb__footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.sb_footer_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.sb__footer-links_div {
+  width: 150px;
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: white;
+}
+
+a {
+  color: rgb(175, 175, 179);
+  text-decoration: none;
+}
+
+.sb__footer-below {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+}
+
+.sb_footer-copyright {
+  font-size: 13px;
+  line-height: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  /* to the center of its div */
+  margin: auto;
+  padding-top: 8px;
+}
+
+.text-placeholder-footer {
+  color: white;
+}
+
+.section-text-placeholder-footer {
+  color: white;
+}
+
+h4, .text-placeholder-footer {
+  color: white;
+  text-decoration: none;
+  transition: text-decoration 0.5s ease;
+}
+
+h4:hover, .text-placeholder-footer:hover{
+  text-decoration: underline;
+  text-decoration-color: #e27d5f;
+}
